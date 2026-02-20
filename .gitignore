@@ -1,0 +1,10 @@
+
+*.xml
+
+GetSSLcertified/GetSSLcertified/bin/Debug/net9.0/
+
+*.cache
+
+*.dll
+
+MailServerTest/MailServerTest/bin/Debug/net9.0/

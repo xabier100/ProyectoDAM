@@ -1,0 +1,14 @@
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\bin\Debug\net9.0\GetSSLcertified.exe
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\bin\Debug\net9.0\GetSSLcertified.deps.json
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\bin\Debug\net9.0\GetSSLcertified.runtimeconfig.json
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\bin\Debug\net9.0\GetSSLcertified.dll
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\bin\Debug\net9.0\GetSSLcertified.pdb
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\obj\Debug\net9.0\GetSSLcertified.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\obj\Debug\net9.0\GetSSLcertified.AssemblyInfoInputs.cache
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\obj\Debug\net9.0\GetSSLcertified.AssemblyInfo.cs
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\obj\Debug\net9.0\GetSSLcertified.csproj.CoreCompileInputs.cache
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\obj\Debug\net9.0\GetSSLcertified.dll
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\obj\Debug\net9.0\refint\GetSSLcertified.dll
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\obj\Debug\net9.0\GetSSLcertified.pdb
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\obj\Debug\net9.0\GetSSLcertified.genruntimeconfig.cache
+C:\Xabier\OneDrive - Centro de Estudios SEIM\DAM\Proyecto\GetSSLcertified\GetSSLcertified\obj\Debug\net9.0\ref\GetSSLcertified.dll
