@@ -1,0 +1,36 @@
+﻿@startuml
+skinparam classAttributeIconSize 0
+
+' ===== Classes =====
+class Board {
+
+}
+
+class Piece {
+
+}
+
+class LevelController <<singleton>> {
+
+}
+
+class PuntuationController <<singleton>> {
+
+}
+
+' ===== Relationships =====
+
+' Board owns / uses
+Board "1" o-- "1" Piece : activePiece
+Board ..> PuntuationController : uses
+Board ..> LevelController : uses
+
+' Piece relations
+Piece "1" --> "1" Board : board
+Piece ..> PuntuationController : updates score
+
+' Controllers as singletons
+LevelController ..> LevelController : «Instance»
+PuntuationController ..> PuntuationController : «Instance»
+
+@enduml

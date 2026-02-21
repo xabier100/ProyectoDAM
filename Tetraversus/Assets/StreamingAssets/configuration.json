@@ -1,0 +1,16 @@
+{
+  "apiBaseUrl": "https://api.example.com",
+  "authUrl": "https://localhost:7291/api/auth",
+  "registerUrl": "https://localhost:7291/api/Users/registration",
+  "emailVerficationStatusUrl": "https://localhost:7291/api/Users/email-verification-status",
+  "updateUsernameUrl": "https://localhost:7291/api/Users/username",
+  "updatePasswordUrl": "https://localhost:7291/api/users/password",
+  "verifyPasswordUrl": "https://localhost:7291/api/Users/password",
+  "verifyUsernameUrl": "https://localhost:7291/api/Users/username-existence",
+  "getUsernameFromTokenUrl": "https://localhost:7291/api/Users/username",
+  "saveGameUrl": "https://localhost:7291/api/Game",
+  "verifyEmailUrl": "https://localhost:7291/api/Users/email-verification",
+  "timeoutSeconds": 15,
+  "certificatePinSha256": "A55A58BE703CAA42422C8DAF3813425AEE812DD3E97BB2C60FAA8D6BBA9A00E1",
+  "environment": "prod"
+}

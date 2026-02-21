@@ -1,0 +1,78 @@
+# ===================== Doxyfile para Unity (C#) =====================
+# Proyecto
+PROJECT_NAME            = "Mi Proyecto (Unity)"
+PROJECT_BRIEF           = "Documentación generada desde comentarios XML /// en C# (SRS/Tetrominós, etc.)"
+DOXYFILE_ENCODING       = UTF-8
+OUTPUT_DIRECTORY        = docs
+CREATE_SUBDIRS          = NO
+
+# Salida
+GENERATE_HTML           = YES
+HTML_OUTPUT             = html
+GENERATE_TREEVIEW       = YES
+GENERATE_LATEX          = NO
+GENERATE_XML            = NO
+
+# Entradas (ajusta si tienes más carpetas con .cs)
+INPUT                   = .\Assets\Scipts README.md
+FILE_PATTERNS           = *.cs *.md
+RECURSIVE               = YES
+INPUT_ENCODING          = UTF-8
+
+# Exclusiones típicas de Unity/IDE/CI
+EXCLUDE                 =
+EXCLUDE_PATTERNS        = */Library/* \
+                          */Temp/* \
+                          */obj/* \
+                          */bin/* \
+                          */Build/* \
+                          */Logs/* \
+                          */Packages/* \
+                          */ProjectSettings/* \
+                          */UserSettings/* \
+                          */.git/* \
+                          */.github/* \
+                          */.idea/* \
+                          */.vs/* \
+                          */docs/*
+
+# Extracción / visibilidad
+EXTRACT_ALL             = YES     # Muestra aunque falten comentarios
+EXTRACT_PRIVATE         = NO
+EXTRACT_INTERNALS       = NO
+EXTRACT_STATIC          = YES
+HIDE_UNDOC_MEMBERS      = NO
+HIDE_UNDOC_CLASSES      = NO
+
+# Parsing (mejor salida para C#)
+OPTIMIZE_OUTPUT_JAVA    = YES     # Doxygen trata C# similar a Java
+JAVADOC_AUTOBRIEF       = YES
+MULTILINE_CPP_IS_BRIEF  = YES
+MARKDOWN_SUPPORT        = YES
+AUTOLINK_SUPPORT        = YES
+
+# Portada (opcional: usa tu README.md como home)
+USE_MDFILE_AS_MAINPAGE  = README.md
+
+# Diagramas (requiere Graphviz "dot"; pon HAVE_DOT=NO si no lo tienes)
+HAVE_DOT                = NO
+DOT_NUM_THREADS         = 2
+CLASS_DIAGRAMS          = YES
+CALL_GRAPH              = NO
+CALLER_GRAPH            = NO
+DOT_IMAGE_FORMAT        = svg
+INTERACTIVE_SVG         = YES
+
+# Navegación / fuentes
+SOURCE_BROWSER          = YES
+INLINE_SOURCES          = NO
+STRIP_FROM_PATH         = .
+
+# Avisos
+QUIET                   = NO
+WARN_IF_UNDOCUMENTED    = NO
+WARN_NO_PARAMDOC        = NO
+WARN_LOGFILE            =
+
+# Miscelánea
+ALIASES                 =
